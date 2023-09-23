@@ -6,9 +6,6 @@
 // a = 9, b = -3 -> да
 // a = -3 b = 9 -> нет
 
-using System;
-using Internal;
-
 Console.WriteLine("Введите 1 число");
 int number1 = Convert.ToInt32(Console.ReadLine());
 int number2 = Convert.ToInt32(Console.ReadLine());
