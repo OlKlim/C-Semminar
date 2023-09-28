@@ -5,8 +5,9 @@
 Console.Write("Введите число больше 0 -> ");
 int number = Convert.ToInt32(Console.ReadLine());
 int count = 2;
-if (number>0)
-{Console.Write($"{number} -> ");
+if (number > 0)
+{
+    Console.Write($"{number} -> ");
     while (count <= number)
     {
         Console.Write($"{count} ");
