@@ -3,6 +3,7 @@
 // нулями и единицами в случайном порядке.
 // [1,0,1,1,0,1,0,0]
 
+
 int[] CreateArray(int size)
 {
     int[] array = new int[size];
